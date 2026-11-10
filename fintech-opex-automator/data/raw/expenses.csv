@@ -1,0 +1,21 @@
+expense_id,invoice_date,vendor,service,expense_type,cost_center,amount,currency,fx_to_usd,description
+EXP-001,2026-01-05,Amazon Web Services,Compute,Infrastructure,SHARED,4200,USD,1,Producción y ambientes no productivos
+EXP-002,2026-01-06,Amazon Web Services,Storage,Infrastructure,SHARED,1280,USD,1,Objetos y snapshots
+EXP-003,2026-01-08,Datadog,Observability,Software,ENG,1800,USD,1,Monitoreo APM
+EXP-004,2026-02-05,Amazon AWS,Compute,Infrastructure,SHARED,4380,USD,1,Producción y ambientes no productivos
+EXP-005,2026-02-07,Amazon AWS,Storage,Infrastructure,SHARED,1310,USD,1,Objetos y snapshots
+EXP-006,2026-02-08,Datadog,Observability,Software,ENG,1830,USD,1,Monitoreo APM
+EXP-007,2026-03-05,AWS,Compute,Infrastructure,SHARED,4450,USD,1,Producción y ambientes no productivos
+EXP-008,2026-03-07,AWS,Storage,Infrastructure,SHARED,1300,USD,1,Objetos y snapshots
+EXP-009,2026-03-08,Datadog,Observability,Software,ENG,1850,USD,1,Monitoreo APM
+EXP-010,2026-04-05,Amazon Web Services,Compute,Infrastructure,SHARED,4700,USD,1,Producción y ambientes no productivos
+EXP-011,2026-04-07,Amazon Web Services,Storage,Infrastructure,SHARED,1350,USD,1,Objetos y snapshots
+EXP-012,2026-04-08,Datadog,Observability,Software,ENG,1870,USD,1,Monitoreo APM
+EXP-013,2026-05-05,Amazon Web Services,Compute,Infrastructure,SHARED,4950,USD,1,Producción y ambientes no productivos
+EXP-014,2026-05-07,Amazon Web Services,Storage,Infrastructure,SHARED,1370,USD,1,Objetos y snapshots
+EXP-015,2026-05-08,Datadog,Observability,Software,ENG,1890,USD,1,Monitoreo APM
+EXP-016,2026-06-05,Amazon Web Services,Compute,Infrastructure,SHARED,8200,USD,1,Escalamiento inesperado de cómputo
+EXP-017,2026-06-07,Amazon Web Services,Storage,Infrastructure,SHARED,1410,USD,1,Objetos y snapshots
+EXP-018,2026-06-08,Datadog,Observability,Software,ENG,1950,USD,1,Monitoreo APM
+EXP-019,2026-06-10,Atlassian,Jira,Software,PRODUCT,1200,USD,1,Licencias de colaboración
+EXP-020,2026-06-11,Google Workspace,Productivity,Software,G&A,900,USD,1,Licencias corporativas

@@ -1,0 +1,4 @@
+const test=require('node:test');const assert=require('node:assert/strict');const fs=require('node:fs');const path=require('node:path');const storePath=path.join(__dirname,'..','data','store.json');const seed=require('../src/seed');const store=require('../src/store');
+test.beforeEach(()=>{fs.mkdirSync(path.dirname(storePath),{recursive:true});fs.writeFileSync(storePath,JSON.stringify(seed));});
+test('un pedido descuenta stock y conserva costos históricos',()=>{const initial=store.read().products.find(p=>p.id==='ssd-1tb').stock;const order=store.createOrder({customer:'Ana',items:[{productId:'ssd-1tb',quantity:2}]});assert.equal(order.items[0].unitCost,56);assert.equal(store.read().products.find(p=>p.id==='ssd-1tb').stock,initial-2);});
+test('no permite vender más unidades que las disponibles',()=>assert.throws(()=>store.createOrder({customer:'Ana',items:[{productId:'ssd-1tb',quantity:999}]}),/Stock insuficiente/));

@@ -1,0 +1,8 @@
+{
+  "name": "pc-tec-ecommerce",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Plataforma demo de e-commerce y analítica comercial para hardware.",
+  "scripts": { "start": "node src/server.js", "test": "node --test" },
+  "engines": { "node": ">=20" }
+}
